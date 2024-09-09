@@ -120,8 +120,8 @@ class JsonUtilities():
 
     def __init__(self, test=False) -> None:
         if test:
-            self.file_path = '/Users/kael/Documents/Harry/Projects/Python/ExpenseTracker/src/testjson.json'
+            self.file_path = '<file_you_want_to_use_for_testing>'
         else:
-            self.file_path = '/Users/kael/Documents/Harry/Projects/Python/ExpenseTracker/data.json'
+            self.file_path = '<file_path_to_save_the_data>'
         self._read_file()
         self._get_next_id()

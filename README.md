@@ -8,6 +8,8 @@ Python command line project for getting and saving you expenses information.
 
 To setup the command line project you have to add the alias of the python file 'expense-tracker.py' in your enviroment variables. Example: `alias expense-tracker="<file_path>"`
 
+After the alias you must create the files you want to use for saving the data and testing the project, you have to create them and then edit the json_utitilies.py file with the paths of the file you will have created.
+
 ## USAGE
 
 * `expense-tracker add --description <description> --amount <amount>` Create a new expense with the description and amount.
